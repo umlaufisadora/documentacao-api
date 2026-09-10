@@ -9,6 +9,11 @@ import lombok.*;
 import java.security.cert.CertPathBuilder;
 import java.util.Date;
 
+/**
+ * Representa um Certificado persistido pela aplicação
+ * <p>Esta entidade contém os dados internos utilizados para camada de persistência</p>
+ */
+
 @Entity
 @Table(name = "certificado")
 @Getter

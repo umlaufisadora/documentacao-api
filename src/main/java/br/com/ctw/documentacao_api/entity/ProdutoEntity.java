@@ -10,6 +10,11 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Representa um Produto persistido pela aplicação
+ * <p>Esta entidade contém os dados internos utilizados para camada de persistência</p>
+ */
+
 @Entity
 @Table(name = "produto")
 @Getter

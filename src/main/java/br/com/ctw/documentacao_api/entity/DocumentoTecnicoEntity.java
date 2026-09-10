@@ -4,6 +4,11 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * Representa um DocumentoTecnico persistido pela aplicação
+ * <p>Esta entidade contém os dados internos utilizados para camada de persistência</p>
+ */
+
 @Entity
 @Table(name = "documento_tecnico")
 @Getter
