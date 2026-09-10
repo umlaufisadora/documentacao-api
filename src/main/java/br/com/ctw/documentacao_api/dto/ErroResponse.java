@@ -47,8 +47,11 @@ public record ErroResponse(
         )
         String caminho
 ) {
-
     public ErroResponse(@Schema(
+            description = "Data e hora em que o erro aconteceu",
+            example = "2026-09-09 18:35"
+    )
+                        LocalDateTime timestamp, @Schema(
             description = "HTTP Status dado pelo erro",
             example = "404"
     )
@@ -65,7 +68,7 @@ public record ErroResponse(
             example = "/api/v1/certificados"
     )
                         String caminho) {
-        LocalDateTime.now();
+        this.timestamp = timestamp;
         this.status = status;
         this.erro = erro;
         this.mensagem = mensagem;

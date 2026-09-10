@@ -1,9 +1,8 @@
 package br.com.ctw.documentacao_api.service;
 
-import br.com.ctw.documentacao_api.Mapper.DocumentoTecnicoMapper;
-import br.com.ctw.documentacao_api.Repository.DocumentoTecnicoRepository;
-import br.com.ctw.documentacao_api.Repository.ProdutoRepository;
-import br.com.ctw.documentacao_api.dto.CertificadoResponse;
+import br.com.ctw.documentacao_api.mapper.DocumentoTecnicoMapper;
+import br.com.ctw.documentacao_api.repository.DocumentoTecnicoRepository;
+import br.com.ctw.documentacao_api.repository.ProdutoRepository;
 import br.com.ctw.documentacao_api.dto.DocumentoTecnicoRequest;
 import br.com.ctw.documentacao_api.dto.DocumentoTecnicoResponse;
 import br.com.ctw.documentacao_api.entity.DocumentoTecnicoEntity;

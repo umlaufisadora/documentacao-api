@@ -1,4 +1,4 @@
-package br.com.ctw.documentacao_api.Mapper;
+package br.com.ctw.documentacao_api.mapper;
 
 import br.com.ctw.documentacao_api.dto.ProdutoRequest;
 import br.com.ctw.documentacao_api.dto.ProdutoResponse;
